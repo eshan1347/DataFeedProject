@@ -1,0 +1,49 @@
+{% extends 'layout.html' %}
+
+<body>
+{% block css %}
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+{% endblock css %}
+
+{% block content %}
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="/register">Sign Up</a></li>
+				<li><a href="/login">Login</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="hero">
+		<h1>Sentiment Analysis Website</h1>
+		<p>Get insights into how people feel about your brand on social media</p>
+		<button>Learn More</button>
+	</section>
+
+	<section class="features">
+		<div class="feature-box">
+			<i class="fas fa-chart-line"></i>
+			<h3>Real-time Insights</h3>
+			<p>Get real-time insights into how people feel about your brand on social media platforms such as Facebook, Twitter and Instagram.</p>
+		</div>
+		<div class="feature-box">
+			<i class="fas fa-check-circle"></i>
+			<h3>Easy-to-Use</h3>
+			<p>Our website is easy-to-use, with a simple user interface that anyone can understand.</p>
+		</div>
+		<div class="feature-box">
+			<i class="fas fa-cloud-upload-alt"></i>
+			<h3>Cloud-based</h3>
+			<p>Our website is cloud-based, so you can access it from anywhere and on any device.</p>
+		</div>
+	</section>
+
+	<footer>
+		<p>&copy; Sentiment Analysis Website 2023</p>
+	</footer>
+{% endblock content %}
+</body>
