@@ -17,11 +17,14 @@ Naive Bayes classifier, and predicting the sentiment of new posts. It provides a
 
 1. Install Python dependencies:
    `pip install numpy pandas praw scikit-learn nltk`
-2. Install NLTK data:
+   
+3. Install NLTK data:
    `python -m nltk.downloader stopwords`
-3. Clone the repository:
+   
+5. Clone the repository:
    `git clone https://github.com/eshan1347/DataFeedProject && cd DataFeedProject`
-4. Run the Python script:
+   
+7. Run the Python script:
    `python sentiment_analysis.py`
 
 ## Front-End
